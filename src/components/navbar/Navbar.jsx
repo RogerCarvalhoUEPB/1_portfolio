@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FiMenu } from "react-icons/fi";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 const navMenus = [
@@ -45,9 +45,7 @@ const Navbar = () => {
     <>
       <nav id="home" className="bg-secondary dark:bg-gray-900">
         <div className="container flex justify-between items-center py-3 sm:py-0">
-          <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center ">
-            M.
-          </h1>
+        <img className="w-32 h-12" src="src\images\logo.png" alt="" />
           <div className="hidden sm:block">
             <ul className="flex items-center gap-4 dark:text-white">
               {navMenus.map((navMenu, index) => {

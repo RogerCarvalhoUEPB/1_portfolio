@@ -1,5 +1,5 @@
-import React from "react";
-import personImg from "../../assets/person2.png";
+
+import personImg from "../../assets/qrcodeBranco.svg";
 
 const Hero = () => {
   return (
@@ -8,22 +8,21 @@ const Hero = () => {
         <div className="container grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[600px] space-y-4 py-12 sm:py-0 ">
           <div className="">
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">
-              <p className="uppercase ">Hello</p>
+              <p className="uppercase ">Bem-vindo ao,</p>
               <p className="text-4xl md:text-6xl font-bold text-black/80 dark:text-white">
-                I'm Michle Smith
+                Sertão Maker
               </p>
               <p className="text-3xl text-gray-700 dark:text-white">
-                Freelance web & <br /> Full stack Developer
+                laboratório de prototipação
               </p>
               <p className="text-black/75 dark:text-white/70 text-center sm:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Molestiae quod accusamus accusantium voluptas autem doloribus?
+              Um espaço colaborativo que estimula a experimentação e o aprendizado contínuo através da criação.
               </p>
               <a
-                href="mailto:michle@test.com"
+                href="mailto:labmaker.pt@ifpb.edu.br"
                 className="inline-block primary-btn !my-3"
               >
-                Hire me
+                Entre em contato
               </a>
             </div>
           </div>
@@ -34,7 +33,7 @@ const Hero = () => {
           <div>
             <img
               src={personImg}
-              className="w-full md:max-w-lg mx-auto backdrop-blur-sm"
+              className="w-60 md:max-w-lg mx-auto backdrop-blur-sm"
               alt="person"
             />
           </div>

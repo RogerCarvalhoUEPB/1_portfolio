@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillLayout } from "react-icons/ai";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
