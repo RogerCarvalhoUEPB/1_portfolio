@@ -3,21 +3,25 @@ import { FiMenu } from "react-icons/fi";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 const navMenus = [
   {
-    name: "Home",
+    name: "Principal",
     link: "/#home",
   },
   {
-    name: "About",
+    name: "Sobre",
     link: "/#about",
   },
   {
-    name: "Services",
+    name: "Projetos",
     link: ".#services",
   },
   {
-    name: "Contact",
+    name: "Contatos",
     link: "#",
   },
+  {
+    name: "Agendar",
+    link: "/#Agendar",
+  }
 ];
 
 const Navbar = () => {

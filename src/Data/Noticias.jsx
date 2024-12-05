@@ -4,21 +4,25 @@ export const noticias = [
     {
         titulo:"1",
         descricao:"testetesteteste",
-        imagem: imgbg
+        imagem: imgbg,
+        badge: "tag"
     },
     {
         titulo:"2",
-        descricao:"",
-        imagem: imgbg
+        descricao:"sdfsdfadf",
+        imagem: imgbg,
+         badge: "tag"
     },
     {
         titulo:"3",
-        descricao:"",
-        imagem: imgbg
+        descricao:"asdfasdfas",
+        imagem: imgbg,
+         badge: "tag"
     },
     {
         titulo:"4",
-        descricao:"",
-        imagem: imgbg
+        descricao:"asdfasdfasdfasdf",
+        imagem: imgbg,
+         badge: "tag"
     }
 ];

@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+import flowbite from "flowbite-react/tailwind";
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}",flowbite.content()],
   darkMode: "class",
   theme: {
     extend: {
       colors: {
         primary: "#01c228",
         secondary: "#f3f3f3",
+        terciary: "##cc1d18",
       },
     },
     container: {
@@ -20,5 +22,7 @@ export default {
       "hero-pattern": "url('./assets/blob.svg')",
     },
   },
-  plugins: [],
+  plugins: [
+    flowbite.plugin()
+  ],
 };

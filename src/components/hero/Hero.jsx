@@ -4,7 +4,7 @@ import personImg from "../../assets/qrcodeBranco.svg";
 const Hero = () => {
   return (
     <>
-      <section className="w-full bg-secondary dark:bg-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-slate-800 dark:text-white">
         <div className="container grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[600px] space-y-4 py-12 sm:py-0 ">
           <div className="">
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">
@@ -13,10 +13,12 @@ const Hero = () => {
                 Sertão Maker
               </p>
               <p className="text-3xl text-gray-700 dark:text-white">
-                laboratório de prototipação
+                Laboratório de prototipação
               </p>
               <p className="text-black/75 dark:text-white/70 text-center sm:text-left">
-              Um espaço colaborativo que estimula a experimentação e o aprendizado contínuo através da criação.
+              Um espaço colaborativo que estimula a experimentação e o aprendizado contínuo através da criação. 
+              </p><p>
+              Localizado no Bloco 2 do IFPB
               </p>
               <a
                 href="mailto:labmaker.pt@ifpb.edu.br"

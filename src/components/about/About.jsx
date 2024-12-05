@@ -1,4 +1,3 @@
-import React from "react";
 
 const About = () => {
   return (
@@ -7,23 +6,19 @@ const About = () => {
         <div className="grid items-center gap-4 grid-cols-1 sm:grid-cols-2">
           <div className=" font-bold relative">
             <div className=" text-center text-6xl xl:text-8xl font-bold text-black/5 dark:text-gray-700">
-              ABOUT
+              SOBRE
             </div>
             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-4xl">
-              About me
+              Sobre
             </h1>
           </div>
-          <div className="text-slate-500">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Deleniti, architecto ullam reprehenderit dolorem magnam quae
-              adipisci velit
+          <div className="text-slate-500 text-justify">
+            <p className="align-baseline">
+            O Sertão Maker é um laboratório de inovação e prototipação localizado no IFPB Campus Patos, criado para impulsionar a cultura Maker no sertão paraibano.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Deleniti, architecto ullam reprehenderit dolorem magnam quae
-              adipisci velit
+            Aberto a alunos, servidores e à comunidade, o espaço promove aprendizado prático, criatividade e colaboração em projetos de ensino, pesquisa e extensão.
             </p>
             <div className="">
               <a
@@ -31,15 +26,9 @@ const About = () => {
                 className="primary-btn my-6 mr-6 inline-block"
                 download
               >
-                Download Resume
+                Saiba mais
               </a>
-              <a
-                href="tel:+123456789"
-                title="Call +123456789 "
-                className="outline-btn my-6"
-              >
-                Contact
-              </a>
+              
             </div>
           </div>
         </div>
