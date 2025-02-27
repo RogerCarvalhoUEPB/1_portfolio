@@ -1,5 +1,9 @@
 
 import personImg from "../../assets/qrcodeBranco.svg";
+import whatsappImg from "../../assets/whatsapp.svg";
+import instagramImg from "../../assets/instagram.svg";
+import mailImg from "../../assets/envelope.svg";
+import {InstagramLink, WhatsappLink, MailLink} from "../../Data/Links.jsx";
 
 const Hero = () => {
   return (
@@ -20,12 +24,29 @@ const Hero = () => {
               </p><p>
               Localizado no Bloco 2 do IFPB
               </p>
-              <a
+              {/* <a
                 href="mailto:labmaker.pt@ifpb.edu.br"
                 className="inline-block primary-btn !my-3"
               >
                 Entre em contato
-              </a>
+              </a> */}
+              <div className="flex justify-center gap-3">
+                <a href={WhatsappLink} target="blank"><img
+              src={whatsappImg}
+              className="w-16 md:max-w-lg mx-auto backdrop-blur-sm"
+              alt="person"
+            /></a>
+            <a href={InstagramLink} target="blank"><img
+              src={instagramImg}
+              className="w-16 md:max-w-lg mx-auto backdrop-blur-sm"
+              alt="person"
+            /></a>
+            <a href={MailLink}><img
+              src={mailImg}
+              className="w-16 md:max-w-lg mx-auto backdrop-blur-sm"
+              alt="person"
+            /></a>
+              </div>
             </div>
           </div>
           {/* image section */}

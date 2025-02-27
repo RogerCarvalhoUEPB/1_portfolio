@@ -5,10 +5,10 @@
 // } from "flowbite-react";
 // import { BsInstagram, BsGithub } from "react-icons/bs";
 import {InstagramOutlined, GithubOutlined} from "@ant-design/icons";
+import {InstagramLink, GitHubLink} from "../../Data/Links.jsx";
 
 const Footer = () => {
-  const InstagramLink = "https://www.instagram.com/sertaomaker.patos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
-  const GitHubLink = "https://github.com/RogerCarvalhoUEPB";
+ 
   return (
     <div className="flex-row text-center py-6 dark:bg-slate-950 dark:text-white justify-between">
       <div className="">
